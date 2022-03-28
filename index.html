@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src=""></script>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body >
+    <div class="c1">
+        <img src="./fondo.jpg" alt="fondo de pantalla" class="i1" > 
+        <img src="./Pokedex.png" alt="Pokedex" class="i2">
+        <div class="c3"> <img src="./Pokeball.png" alt="Imagen pokeball" class="i3" id="pokeImg"> </div>
+        <div class="c4">
+            <input type="text" placeholder="Nombre o Id Pokemon" id="pokeName" class="in1">
+        </div>
+        <div class="c5">
+            <button class="b1" onclick="fetchPokemon()" > <p class="p1"> Buscar Pokemon </p> </button>
+        </div>
+        <div class="c6" >
+             <P id="name" class="p2"></P> </div>
+        <div class="c7">
+            <table id="tipoo">
+                <tr>
+                    <th class="tb1">Tipo</th>
+                    <th id="tip" class="tb1"> </th>
+                    <th id="tipo" class="tb1"> </th>
+                </tr>
+            
+            </table>
+        </div>
+        <div class="c8">
+            <div class="c9" id="staa">
+                <Table id="tabla">
+                    <tr>
+                        <th id="ta" class="th">Estadisticas</th>
+                        
+                    </tr>
+                </Table>
+            </div>
+            <div class="c10" id="valor" >
+                <p class="ptitulo">Movimientos</p>
+            <ul id="movimientos">
+                
+                <li id="valor" class="Li1"></li>
+                
+
+            </ul>
+        </div>
+        <div class="c11">
+            <H3 class="H3">ID:</H3>
+            <P class="pp" id="numero"></P>
+        </div>
+        
+    </div>
+        <H1 class="t1">BIENVENIDO ENTRENADOR</H1>
+        <h3 class="t1">Mi Pokedex 2022</h3>
+        
+</body>
+    <footer>
+        <script src="./poke.js"></script>
+    </footer>
+</html>
